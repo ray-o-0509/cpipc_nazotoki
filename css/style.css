@@ -60,4 +60,28 @@ body .second_section .portal_div p {
   width: 80vw;
   margin: 50px 10vw;
 }
+
+.tower_outer_div .tower_img {
+  position: absolute;
+  top: 100;
+  left: 100;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 400px;
+  text-align: center;
+}
+
+.tower_outer_div .dics_text_tower {
+  font-size: 16px;
+  position: absolute;
+  top: 420px;
+  left: 140px;
+  width: 320px;
+  line-height: 2;
+  color: #391E01;
+}
 /*# sourceMappingURL=style.css.map */
