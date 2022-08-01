@@ -26,3 +26,13 @@ function check_answer() {
     alert('正解！');
     location.href = 'index.html';
 }
+
+function check_aikotoba() {
+    let data = $('.input_aikotoba').val();
+    console.log(data);
+    if (data == '5483927') {
+        location.href = 'thy3kf.html';
+    } else {
+        alert('あいことばが間違っています。※半角で入力してない場合も表示されます。');
+    }
+}

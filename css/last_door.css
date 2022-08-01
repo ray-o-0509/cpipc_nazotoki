@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'Makinas';
+  src: url("../fonts/Makinas-4-Square.otf");
+}
+
+body {
+  margin: 0;
+  font-family: 'Makinas';
+  background: #333;
+  color: white;
+}
+
+body .question_img {
+  width: 80vw;
+  margin: 50px 10vw;
+}
+
+body .box_outer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .box_outer .block_div {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+}
+/*# sourceMappingURL=last_door.css.map */

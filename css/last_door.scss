@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Makinas';
+    src: url("../fonts/Makinas-4-Square.otf");
+}
+
+body {
+    margin: 0;
+    font-family: 'Makinas';
+    background: #333;
+    color: white;
+    .question_img {
+        width: 80vw;
+        margin: 50px 10vw;
+    }
+    .box_outer {
+        display: flex;
+        align-items: center;
+        .block_div {
+            width: 30px;
+            height: 30px;
+            margin: 10px;
+        }
+    }
+}
