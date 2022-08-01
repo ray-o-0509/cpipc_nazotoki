@@ -39,7 +39,7 @@ body {
     font-size: 30px;
     text-align: center;
     color: #391E01;
-    margin: 200px auto;
+    margin: 100px auto;
     width: 830px;
     line-height: 2;
 }
@@ -47,4 +47,32 @@ body {
 .question_img {
     width: 80vw;
     margin: 50px 10vw;
+}
+
+// tower
+.tower_outer_div {
+    .tower_img {
+        position: absolute;
+        top: 100;
+        left: 100;
+        display: flex;
+        justify-content: center;
+        width: 400px;
+        text-align: center;
+    }
+    .dics_text_tower {
+        font-size: 16px;
+        position: absolute;
+        top: 420px;
+        left: 140px;
+        width: 320px;
+        line-height: 2;
+        color: #391E01;
+        a {
+            color: #391E01;
+            text-decoration: none;
+            cursor: text;
+            margin: 0;
+        }
+    }
 }
