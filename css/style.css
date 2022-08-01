@@ -31,17 +31,38 @@ body .top_section h1 {
 body .second_section {
   padding: 100px 50px;
   background: #123752;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-body .second_section .portal_div {
+body .second_section .portal_div,
+body .second_section .door_div {
+  margin: 20px 0;
   text-align: center;
 }
 
-body .second_section .portal_div .portal_img {
+body .second_section .portal_div .portal_img,
+body .second_section .door_div .portal_img {
   width: 500px;
 }
 
-body .second_section .portal_div p {
+body .second_section .portal_div .door_img,
+body .second_section .door_div .door_img {
+  width: 440px;
+  height: 240px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+body .second_section .portal_div p,
+body .second_section .door_div p {
   color: white;
   font-size: 30px;
   letter-spacing: 5px;

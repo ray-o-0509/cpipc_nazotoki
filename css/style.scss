@@ -21,10 +21,20 @@ body {
     .second_section {
         padding: 100px 50px;
         background: #123752;
-        .portal_div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .portal_div,
+        .door_div {
+            margin: 20px 0;
             text-align: center;
             .portal_img {
                 width: 500px;
+            }
+            .door_img {
+                width: 440px;
+                height: 240px;
+                object-fit: cover;
             }
             p {
                 color: white;
