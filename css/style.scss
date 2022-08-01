@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Makinas';
+    src: url('../fonts/Makinas-4-Square.otf');
+}
+
+body {
+    margin: 0;
+    font-family: 'Makinas';
+    .top_section {
+        height: 500px;
+        background: url('../img/bg.jpeg');
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        h1 {
+            font-size: 50px;
+            color: #391E01;
+        }
+    }
+    .second_section {
+        padding: 100px 50px;
+        background: #123752;
+        .portal_div {
+            text-align: center;
+            .portal_img {
+                width: 500px;
+            }
+            p {
+                color: white;
+                font-size: 30px;
+                letter-spacing: 5px;
+            }
+        }
+    }
+}
+
+.order_text {
+    font-size: 30px;
+    text-align: center;
+    color: #391E01;
+    margin: 200px auto;
+    width: 830px;
+    line-height: 2;
+}
+
+.question_img {
+    width: 80vw;
+    margin: 50px 10vw;
+}
