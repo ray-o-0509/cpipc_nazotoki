@@ -11,7 +11,3 @@ function portal_clicked() {
     }
 
 }
-
-function clicked_star() {
-    location.href = '../923bdi.html';
-}
