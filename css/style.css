@@ -131,4 +131,19 @@ body .second_section .door_div p {
   line-height: 2;
   color: #391E01;
 }
+
+.done_section {
+  margin: 200px auto;
+  text-align: center;
+  color: white;
+}
+
+.done_section .first_title {
+  font-size: 40px;
+  margin-bottom: 100px;
+}
+
+.done_section .second_title {
+  font-size: 30px;
+}
 /*# sourceMappingURL=style.css.map */
