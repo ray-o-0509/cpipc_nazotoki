@@ -10,6 +10,10 @@ function portal_clicked() {
         }, 1000);
     }
 
+    setTimeout(() => {
+        portal_count = 0;
+    }, 10000);
+
 }
 
 const mahoujin_answers = ['8', '5', '7', '4', '20', '3', '2', '9'];
