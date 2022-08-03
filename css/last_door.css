@@ -47,7 +47,8 @@ body .question_img {
   margin: 50px 10vw;
 }
 
-body .input_aikotoba {
+body .input_aikotoba,
+body .input_pw {
   font-size: 24px;
   background: rgba(215, 215, 215, 0.1);
   border: none;
@@ -55,7 +56,8 @@ body .input_aikotoba {
   color: white;
 }
 
-body .input_aikotoba:focus {
+body .input_aikotoba:focus,
+body .input_pw:focus {
   outline: none;
   border: none;
   background: rgba(215, 215, 215, 0.3);

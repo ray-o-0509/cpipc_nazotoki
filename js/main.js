@@ -36,3 +36,14 @@ function check_aikotoba() {
         alert('あいことばが間違っています。※半角で入力してない場合も表示されます。');
     }
 }
+
+
+function check_pw() {
+    let data = $('.input_pw').val();
+    // console.log(data);
+    if (data == '11463') {
+        location.href = 'done.html';
+    } else {
+        alert('回答が間違っています。※半角で入力してない場合も表示されます。');
+    }
+}
