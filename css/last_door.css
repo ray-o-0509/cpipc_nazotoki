@@ -4,10 +4,42 @@
 }
 
 body {
+  text-align: center;
   margin: 0;
+  padding: 100px 200px;
   font-family: 'Makinas';
   background: #333;
   color: white;
+}
+
+body p {
+  font-size: 30px;
+}
+
+body .hint_secsion {
+  margin: 150px auto;
+}
+
+body .hint_secsion .aikotoba {
+  font-size: 20px;
+}
+
+body .hint_secsion .box_outer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .hint_secsion .box_outer .block_div {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
 }
 
 body .question_img {
@@ -15,18 +47,43 @@ body .question_img {
   margin: 50px 10vw;
 }
 
-body .box_outer {
+body .input_aikotoba {
+  font-size: 24px;
+  background: rgba(215, 215, 215, 0.1);
+  border: none;
+  padding: 10px 30px;
+  color: white;
+}
+
+body .input_aikotoba:focus {
+  outline: none;
+  border: none;
+  background: rgba(215, 215, 215, 0.3);
+}
+
+body .open_button {
+  margin: 40px auto;
+  color: #333;
+  background: white;
+  width: 200px;
+  height: 60px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
-body .box_outer .block_div {
-  width: 30px;
-  height: 30px;
-  margin: 10px;
+body .open_button:hover {
+  opacity: .7;
+}
+
+body p {
+  margin: 30px;
+  font-size: 24px;
 }
 /*# sourceMappingURL=last_door.css.map */

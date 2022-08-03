@@ -9,9 +9,17 @@ body {
 }
 
 body .top_section {
-  height: 500px;
+  padding: 200px 50px;
   background: url("../img/bg.jpeg");
   text-align: center;
+}
+
+body .top_section h1 {
+  font-size: 50px;
+  color: #391E01;
+}
+
+body .top_section ul li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -21,11 +29,29 @@ body .top_section {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin: 30px 0;
 }
 
-body .top_section h1 {
-  font-size: 50px;
+body .top_section ul li p {
+  font-size: 20px;
+  letter-spacing: 6px;
+  margin: 0 20px;
+}
+
+body .top_section ul li a {
+  text-decoration: none;
+}
+
+body .top_section ul li a .find_button {
+  background: rgba(255, 255, 255, 0.7);
+  padding: 10px 30px;
+  border-radius: 3px;
+}
+
+body .top_section ul li a .find_button p {
   color: #391E01;
+  margin: 0;
+  font-size: 16px;
 }
 
 body .second_section {
