@@ -5,7 +5,7 @@ function portal_clicked() {
     if (portal_count == 8) {
         setTimeout(() => {
             if (portal_count == 8) {
-                location.href = '334fr3qw.html';
+                location.href = '43ru93fj.html';
             }
         }, 1000);
     }
